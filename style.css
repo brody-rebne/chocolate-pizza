@@ -10,6 +10,11 @@ header {
 
 header img {
   float: left;
+  margin-right: 1px;
+}
+
+#logo {
+  margin-right: 10px;
 }
 
 header p {
@@ -143,7 +148,7 @@ overflow: visible;
 #ingredients {
 background-image: url("resources/list-bg.png");
 height: 326px;
-padding-top: 66px;
+padding-top: 45px;
 padding-left: 60px;
 width: 100%;
 background-repeat: no-repeat;
@@ -157,9 +162,27 @@ background-repeat: no-repeat;
 #ingredients li  {
 font-family: "Comic Sans MS";
 margin-bottom: 10px;
+color: #783c00;
+
 }
 
 footer hr {
-  width: 50%;
+  width: 40%;
   display: inline-block;
+}
+
+input {
+  background-color:  #783c00;
+}
+
+#test {
+  border: 5px solid black;
+}
+
+main hr {
+  height: 15px;
+  background-color: #ddd;
+  border: none;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
