@@ -1,0 +1,60 @@
+header {
+  width: 960px;
+  height: 100px;
+}
+
+header img {
+  float: left;
+}
+
+header p {
+  display: block;
+  margin-left: 40px;
+  line-height: 5px;
+}
+
+h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 32px;
+}
+
+#wmSubtitle {
+  margin-left: 3px;
+  font-family: 'Neucha';
+  font-size: 10px;
+}
+
+#shareIcons {
+  float: left;
+}
+
+#shareIcons li {
+  display: inline-block;
+}
+
+#shareIcons2 {
+  float: right;
+}
+
+#shareIcons2 li {
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Exo', sans-serif;
+  font-size: 34px;
+}
+
+#postTitle
+
+#postTitle p {
+  font-family: 'Neucha';
+  font-size: 15px;
+  color: #777;
+}
+
+#postTitle div {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
