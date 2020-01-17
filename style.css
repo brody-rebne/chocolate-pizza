@@ -1,3 +1,8 @@
+body {
+  margin: 0 auto;
+  width: 960px;
+}
+
 header {
   width: 960px;
   height: 100px;
@@ -24,16 +29,16 @@ h2 {
   font-size: 10px;
 }
 
-#shareIcons {
-  float: left;
-}
-
 #shareIcons li {
-  display: inline-block;
+  display: inline;
 }
 
 #shareIcons2 {
   float: right;
+}
+
+#shareIcons {
+  display: inline;
 }
 
 #shareIcons2 li {
@@ -48,13 +53,35 @@ h1 {
 #postTitle
 
 #postTitle p {
+  float: left;
   font-family: 'Neucha';
   font-size: 15px;
   color: #777;
 }
 
 #postTitle div {
-  position: absolute;
-  top: 0;
-  right: 0;
+  float: right;
+}
+
+#postTitle div p {
+  float: right;
+  margin-left: 5px;
+}
+
+main>img {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.bodyText {
+  margin: 35px 0;
+  text-indent: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #555;
+}
+
+#notepad {
+  width: 100%;
 }
