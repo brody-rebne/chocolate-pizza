@@ -10,6 +10,11 @@ header {
 
 header img {
   float: left;
+  margin-right: 1px;
+}
+
+#logo {
+  margin-right: 10px;
 }
 
 header p {
@@ -84,4 +89,100 @@ main>img {
 
 #notepad {
   width: 100%;
+  float: left;
+  z-index: -1;
+  /* position: absolute; */
+}
+
+main ul {
+  z-index: 10;
+  float: left;
+  /* position: absolute; */
+  max-width: 475px;
+  width: 40%;
+  height: min-content;
+  vertical-align: auto;
+}
+
+footer article img {
+  float: left;
+  margin-right: 18px;
+}
+
+footer article p {
+  display: inline;
+}
+
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer article button {
+  float: right;
+  padding: 15px 30px;
+  background-color: #e60000;
+  color: white;
+  
+}
+
+
+footer article p {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+line-height: 22px;
+color: #555;
+width: 100px;
+overflow: visible;
+}
+
+#copywrite {
+  margin: 0 auto;
+  width: max-content;
+  text-align: center;
+  padding: 50px;
+}
+
+#ingredients {
+background-image: url("resources/list-bg.png");
+height: 326px;
+padding-top: 45px;
+padding-left: 60px;
+width: 100%;
+background-repeat: no-repeat;
+}
+
+#smlogo {
+  margin: 0 auto;
+  width: max-content;
+}
+
+#ingredients li  {
+font-family: "Comic Sans MS";
+margin-bottom: 10px;
+color: #783c00;
+
+}
+
+footer hr {
+  width: 40%;
+  display: inline-block;
+}
+
+input {
+  background-color:  #783c00;
+}
+
+#test {
+  border: 5px solid black;
+}
+
+main hr {
+  height: 15px;
+  background-color: #ddd;
+  border: none;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
